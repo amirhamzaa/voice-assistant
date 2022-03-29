@@ -67,7 +67,7 @@ if ("webkitSpeechRecognition" in window) {
             speech.text = "I don't have a name at the moment!";
         }
         else if (massage.includes("made you")) {
-            speech.text = "I was created by Tawfiq, He is a full-stack web developer.";
+            speech.text = "I was created by Amir Hamza, He is a great developer.I thank him so much for make me.";
         }
         else if (massage.includes("Assalam") || massage.includes("Walekum")) {
             speech.text = "Waalaykumu s-salam. How can I help you?";
